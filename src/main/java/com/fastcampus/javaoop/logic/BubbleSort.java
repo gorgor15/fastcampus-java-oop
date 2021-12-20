@@ -3,7 +3,7 @@ package com.fastcampus.javaoop.logic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BubbleSort<T extends Comparable<T>>{
+public class BubbleSort<T extends Comparable<T>> implements Sort<T>{
     // 문자열, 숫자, 비교가 가능해야된다.
 
     //버블sort 오름차순 정렬
